@@ -5,13 +5,11 @@ import Project from "y/components/project";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-zinc-800">
+    <div className="bg-zinc-800 font-sans uppercase">
       <div className="relative z-[9] w-full border-b border-solid border-neutral-800 bg-[#111111] px-4 py-8 shadow-xl md:px-6">
         <nav className="top-[1.99rem] z-20 mb-6 flex h-auto flex-1 items-stretch justify-between md:fixed md:mb-0">
           <div className="ease-[cubic-bezier(0.22, 1, 0.36, 1)] relative h-[48px] w-[48px] hover:cursor-help hover:opacity-[.9]">
-            <span
-              style={{ display: "block", position: "absolute", inset: "0" }}
-            >
+            <span className="absolute inset-0 block">
               <Image src="/me.png" alt="Me" width={48} height={48} />
             </span>
           </div>
@@ -20,20 +18,19 @@ const Home: NextPage = () => {
           className="undefined relative z-10 grid grid-cols-12 gap-4 md:gap-8"
           style={{ opacity: 1 }}
         >
-          <p className="z-1000 ease-[cubic-bezier(0.22, 1, 0.36,  1)] col-start-1 col-end-13 mb-8 gap-6 pt-2 text-zinc-100 transition duration-[200ms] md:col-start-5 md:col-end-13 md:mt-0 md:columns-2 lg:col-start-5 lg:col-end-13">
+          <p className="col-start-1 col-end-13 mb-8 gap-6 pt-2 text-zinc-100 md:col-start-5 md:col-end-13 md:mt-0 md:columns-2 lg:col-start-5 lg:col-end-13">
             Viphou is a both designer and developer interested in designing and
-            building product that have huge impact in society. After working at
+            building product that have huge impact in society. After working at{" "}
             <DynamicLink title="Edemy" url="https://www.edemy.org/" />
             <Digit digit="1" /> as a UXUI designer, he discovered a love for
             having full control over how the interface should and feel. He
             graduated from Kasem bundit University where she studied computer
-            Science. He iscurrently an intern at
+            Science. He iscurrently an intern at{" "}
             <DynamicLink
               title="Ministry of Economy and Finance"
               url="https://mef.gov.kh/"
             />
-            <Digit digit="2" />
-            doing both UXUI and mobile developement
+            <Digit digit="2" /> doing both UXUI and mobile developement
           </p>
           <Project
             url="/"

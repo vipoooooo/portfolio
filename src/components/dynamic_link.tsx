@@ -10,7 +10,7 @@ const DynamicLink = ({ title, url }: { title: string; url: string }) => (
 );
 
 const Digit = ({ digit }: { digit: string }) => (
-  <sub className="font-mono  text-[10px] font-light text-yellow-300">
+  <sub className="top-[-0.5em]  font-mono text-[10px] font-light text-yellow-300">
     {digit}
   </sub>
 );
