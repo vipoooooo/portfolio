@@ -34,25 +34,10 @@ const Project = ({
             >
               <img
                 src={image}
-                alt="Me"
+                alt={title}
                 width="100vw"
                 decoding="async"
-                style={{
-                  position: "absolute",
-                  inset: 0,
-                  boxSizing: "border-box",
-                  padding: 0,
-                  border: "none",
-                  margin: "auto",
-                  display: "block",
-                  width: "0px",
-                  height: "0px",
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
-                  objectFit: "cover",
-                }}
+                className="absolute inset-0 box-border block h-auto max-h-full min-h-full w-0 min-w-full max-w-full overflow-hidden border-0 bg-none object-cover md:h-full md:w-full"
               />
             </span>
           </article>

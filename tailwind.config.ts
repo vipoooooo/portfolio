@@ -6,6 +6,7 @@ export default {
     extend: {
       fontFamily: {
         sans: "InputMono, sans-serif",
+        nimbus: "NimbusSans, sans-serif",
       },
     },
   },
