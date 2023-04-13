@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { type NextPage } from "next";
 import Image from "next/image";
 import { DynamicLink, Digit } from "y/components/dynamic_link";
@@ -14,11 +15,13 @@ const Home: NextPage = () => {
             </span>
           </div>
         </nav>
-        <main
-          className="undefined relative z-10 grid grid-cols-12 gap-4 md:gap-8"
-          style={{ opacity: 1 }}
-        >
-          <p className="col-start-1 col-end-13 mb-8 gap-6 pt-2 text-zinc-100 md:col-start-5 md:col-end-13 md:mt-0 md:columns-2 lg:col-start-5 lg:col-end-13">
+        <main className="undefined relative z-10 grid grid-cols-12 gap-4 md:gap-8">
+          <p
+            className={clsx(
+              "col-start-1 col-end-13 md:col-start-5 md:col-end-13 lg:col-start-5 lg:col-end-13",
+              "mb-8 select-none gap-6 pt-2 text-zinc-100 md:mt-0 md:columns-2"
+            )}
+          >
             Viphou is a both designer and developer interested in designing and
             building product that have huge impact in society. After working at{" "}
             <DynamicLink title="Edemy" url="https://www.edemy.org/" />
@@ -33,7 +36,7 @@ const Home: NextPage = () => {
             <Digit digit="2" /> doing both UXUI and mobile developement
           </p>
           <Project
-            url="/"
+            url="/projects/mef"
             col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
             image="/image/mef.png"
             title="Ministry of Economy and Finance"
