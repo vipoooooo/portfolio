@@ -1,7 +1,6 @@
 import { ReactElement } from "react";
 import { DynamicLink, Digit } from "y/components/dynamic_link";
 import DefaultLayout from "./default";
-import Image from "next/image";
 
 export default function ProjectLayout({
   children,
