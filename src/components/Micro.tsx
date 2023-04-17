@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Button = ({
   classs,
   url,
@@ -50,9 +52,12 @@ const Subtitle = ({ label }: { label: string }) => (
 
 const Imagez = ({ image }: { image: string }) => (
   <div className="col-start-1 col-end-13 overflow-hidden rounded-md bg-gray-800 md:col-start-5">
-    <img
+    <Image
       src={image}
       alt="Me"
+      width={0}
+      height={0}
+      sizes="50"
       decoding="async"
       className="related inset-0 box-border block h-auto 
               max-h-full min-h-full 

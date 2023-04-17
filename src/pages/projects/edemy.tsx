@@ -79,7 +79,7 @@ const Mef: NextPage = () => {
         <Description text="Web version of the system" />
         <Imagez image="/image/weg4.png" />
         <Imagez image="/image/weg3.png" />
-        <Description text="Web version of the system" />
+        <Description text="Mobile version of the system" />
         <Section
           title="IBFKH"
           subtitle="I design the whole web application for ibfkh's Admission Test. ibfkh stands for The Institute of Banking & Finance Cambodia (formely know as CIB) has been set up by The Association of Banks in Cambodia (ABC), with the assistance from the Mekong Private Sector Development Facility (MPDF), the Asian Development Bank, and the ASEAN Bankers’ Association"

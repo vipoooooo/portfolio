@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import { ButtonI, ButtonII, Subtitle, Title } from "y/components/Micro";
+import { ButtonI, ButtonII, Imagez, Subtitle, Title } from "y/components/Micro";
 import ProjectLayout from "y/layouts/projectLayout";
 
 const Mef: NextPage = () => {

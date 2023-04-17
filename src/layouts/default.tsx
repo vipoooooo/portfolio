@@ -16,7 +16,7 @@ export default function DefaultLayout({
           <div className="col-start-1 col-end-13 flex-col space-y-2 md:col-start-1 md:col-end-6">
             <span className="flex flex-row space-x-2 align-middle">
               <p className="mono w-min self-center rounded-full border border-solid border-yellow-300 px-2 pb-[2px] pt-1 lowercase text-yellow-300">
-                v1.0.0
+                v1.0.1
               </p>
               <p className="mono self-center px-2 pb-[2px] pt-1 uppercase text-zinc-600">
                 Last updated 2023-04-09

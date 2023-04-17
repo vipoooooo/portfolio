@@ -46,7 +46,7 @@ const Home: NextPage = () => {
           <Project
             url="/projects/opentask"
             col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
-            image="/image/opentask.png"
+            image="/image/ot.png"
             title="Opentask"
             subtitle="Design & Code"
           />
