@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import { type ReactElement } from "react";
 import { DynamicLink, Digit } from "y/components/dynamic_link";
 
 export default function DefaultLayout({
@@ -42,7 +42,7 @@ export default function DefaultLayout({
             </p>
           </span>
           <div className="col-start-1 col-end-13 flex flex-col space-y-1 md:col-start-9">
-            <p className="text-white">Let's build something together.</p>
+            <p className="text-white">Let&apos;s build something together.</p>
             <p>
               <DynamicLink
                 title="vipoopoopoo@gmail.com"

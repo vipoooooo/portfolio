@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Project = ({
   url,
@@ -14,7 +15,7 @@ const Project = ({
   subtitle: string;
 }) => (
   <div className={col}>
-    <a href={url}>
+    <Link href={url}>
       <div className="relative h-[60vw] overflow-hidden rounded-md object-cover lg:h-[29vw]">
         <div className="relative h-full">
           <article className="opacity-1 h-full w-full overflow-hidden rounded-md object-cover transition duration-500 ease-out">
@@ -50,7 +51,7 @@ const Project = ({
         <p className="text-zinc-50">{title}</p>
         <p className="text-zinc-500">{subtitle}</p>
       </div>
-    </a>
+    </Link>
   </div>
 );
 

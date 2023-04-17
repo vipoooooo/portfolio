@@ -1,12 +1,14 @@
+import Link from "next/link";
+
 const DynamicLink = ({ title, url }: { title: string; url: string }) => (
-  <a
+  <Link
     href={url}
     target="_blank"
     rel="noreferrer"
     className="border-b-[1px] border-dotted border-[rgba(255,255,255,.5)] bg-white/0 px-[2px] pt-[2px] text-white hover:border-yellow-300 hover:bg-white/10 hover:text-yellow-300"
   >
     {title}
-  </a>
+  </Link>
 );
 
 const Digit = ({ digit }: { digit: string }) => (

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Button = ({
   classs,
@@ -9,7 +10,7 @@ const Button = ({
   url: string;
   label: string;
 }) => (
-  <a href={url} className={classs} target="_blank">
+  <Link href={url} className={classs} target="_blank">
     <p>{label}</p>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +24,7 @@ const Button = ({
         strokeLinejoin="round"
       ></path>
     </svg>
-  </a>
+  </Link>
 );
 
 const ButtonI = ({ url, label }: { url: string; label: string }) => (

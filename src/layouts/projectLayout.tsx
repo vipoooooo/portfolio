@@ -1,7 +1,7 @@
-import { ReactElement } from "react";
-import { DynamicLink, Digit } from "y/components/dynamic_link";
+import { type ReactElement } from "react";
 import DefaultLayout from "./default";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProjectLayout({
   children,
@@ -20,11 +20,11 @@ export default function ProjectLayout({
     <DefaultLayout>
       <>
         <nav className="top-[1.99rem] z-20 mb-6 flex h-auto w-full flex-1 items-stretch justify-between md:sticky md:mb-0">
-          <a href="/" className="sticky ml-auto">
+          <Link href="/" className="sticky ml-auto">
             <p className="fit-content inline-block cursor-pointer justify-self-end rounded-md bg-[rgba(50,50,50,.5)] px-2 py-1 text-zinc-100 hover:bg-[rgba(100,100,100,.5)]">
               Back home
             </p>
-          </a>
+          </Link>
         </nav>
         <main className="min-h-[70vh]">
           <section className=" undefined relative grid grid-cols-12 gap-4 md:gap-8">
