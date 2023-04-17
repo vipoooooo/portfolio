@@ -61,23 +61,23 @@ const Mef: NextPage = () => {
           subtitle="Impact hub is a place where they help connect entrepreneurs and innovators to large organizations, investors and the public sector. they need a design for their e-learning platform's administration website. I take on a responsibility to design their website following their existing design language"
         />
         <ButtonI label="Visit Impacthub website" url="https://impacthub.net/" />
-        <Imagez image="/image/impacthub2.png" />
+        <Imagez image="/image/ih2.png" />
         <Description text="Admin Main Screen" />
-        <Imagez image="/image/impacthub4.png" />
+        <Imagez image="/image/ih4.png" />
         <Description text="Overview of Content" />
-        <Imagez image="/image/impacthub5.png" />
+        <Imagez image="/image/ih5.png" />
         <Description text="User Screen" />
         <Section
           title="WEG's Learning Managerment System"
           subtitle="Impact hub is a place where they help connect entrepreneurs and innovators to large organizations, investors and the public sector. they need a design for their e-learning platform's administration website. I take on a responsibility to design their website following their existing design language"
         />
         <ButtonI label="Visit WEG website" url="https://wegcambodia.com/" />
-        <Imagez image="/image/weg5.png" />
-        <Description text="I redesign the logo(right) of WEG LMS so that it look more modern and cleaner than the old one(left)" />
         <Imagez image="/image/weg1.png" />
-        <Imagez image="/image/weg2.png" />
-        <Description text="Web version of the system" />
+        <Description text="I redesign the logo(right) of WEG LMS so that it look more modern and cleaner than the old one(left)" />
+        <Imagez image="/image/weg5.png" />
         <Imagez image="/image/weg4.png" />
+        <Description text="Web version of the system" />
+        <Imagez image="/image/weg2.png" />
         <Imagez image="/image/weg3.png" />
         <Description text="Mobile version of the system" />
         <Section

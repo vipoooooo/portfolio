@@ -57,7 +57,7 @@ const Opentask: NextPage = () => {
         <Description text="We decided to use baseweb library for design system" />
         <Imagez image="/image/housemade6.png" />
         <Description text="Custom Components" />
-        <Imagez image="/image/housemade4.png" />
+        <Imagez image="/image/housemade5.png" />
         <Description text="Some of the mobile screen" />
       </>
     </ProjectLayout>

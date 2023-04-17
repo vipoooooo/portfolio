@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 import { DynamicLink, Digit } from "y/components/dynamic_link";
 import DefaultLayout from "./default";
+import Image from "next/image";
 
 export default function ProjectLayout({
   children,
@@ -31,10 +32,11 @@ export default function ProjectLayout({
               <div className="relative h-full">
                 <article className="opacity-1 h-full w-full overflow-hidden rounded-md object-cover transition duration-500 ease-out">
                   <span className="w-initial h-initial absolute inset-0 m-0 box-border block overflow-hidden border-0 bg-none p-0 opacity-100">
-                    <img
+                    <Image
                       src={image}
                       alt="Me"
-                      width="100vw"
+                      width={2000}
+                      height={500}
                       decoding="async"
                       className="absolute inset-0 box-border block h-auto max-h-full min-h-full w-0 min-w-full max-w-full overflow-hidden border-0 bg-none object-cover md:h-full md:w-full"
                     />

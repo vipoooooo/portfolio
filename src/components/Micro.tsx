@@ -55,9 +55,8 @@ const Imagez = ({ image }: { image: string }) => (
     <Image
       src={image}
       alt="Me"
-      width={0}
-      height={0}
-      sizes="50"
+      width={2000}
+      height={2000}
       decoding="async"
       className="related inset-0 box-border block h-auto 
               max-h-full min-h-full 

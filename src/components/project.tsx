@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Project = ({
   url,
   col,
@@ -32,10 +34,11 @@ const Project = ({
                 inset: 0,
               }}
             >
-              <img
+              <Image
                 src={image}
                 alt={title}
-                width="100vw"
+                width={500}
+                height={500}
                 decoding="async"
                 className="absolute inset-0 box-border block h-auto max-h-full min-h-full w-0 min-w-full max-w-full overflow-hidden border-0 bg-none object-cover md:h-full md:w-full"
               />
