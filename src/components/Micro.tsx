@@ -72,14 +72,24 @@ const Description = ({ text }: { text: string }) => (
   </p>
 );
 
-const Section = ({ title, subtitle }: { title: string; subtitle: string }) => (
-  <>
-    <hr className="col-start-1 col-end-13 border-solid border-[.5x] border-neutral-800 md:col-start-5" />
-    <div className="col-start-1 col-end-13 mb-2 gap-6  text-zinc-100 md:col-start-5 md:col-end-13">
-      <h2 className="h2 mt-4 font-nimbus text-lg">{title}</h2>
-      <p>{subtitle}</p>
-    </div>
-  </>
+const Divider = () => (
+  <hr className="col-start-1 col-end-13 border-solid border-[.5x] border-neutral-800 md:col-start-5" />
 );
 
-export { ButtonI, ButtonII, Title, Subtitle, Imagez, Description, Section };
+const Section = ({ title, subtitle }: { title: string; subtitle: string }) => (
+  <div className="col-start-1 col-end-13 mb-2 gap-6  text-zinc-100 md:col-start-5 md:col-end-13">
+    <h2 className="h2 mt-4 font-nimbus text-lg">{title}</h2>
+    <p>{subtitle}</p>
+  </div>
+);
+
+export {
+  ButtonI,
+  ButtonII,
+  Title,
+  Subtitle,
+  Imagez,
+  Description,
+  Section,
+  Divider,
+};

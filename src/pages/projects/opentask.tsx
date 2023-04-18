@@ -1,5 +1,12 @@
 import { type NextPage } from "next";
-import { ButtonI, Subtitle, Title } from "y/components/Micro";
+import {
+  ButtonI,
+  Description,
+  Imagez,
+  Section,
+  Subtitle,
+  Title,
+} from "y/components/Micro";
 import ProjectLayout from "y/layouts/projectLayout";
 
 const Opentask: NextPage = () => {
@@ -31,8 +38,38 @@ const Opentask: NextPage = () => {
           <Subtitle label="Flutter - Dart" />
           <Subtitle label="Next js" />
         </div>
-
-        <ButtonI label="Website (Coming soon)" url="/projects/opentask" />
+        {/* <ButtonI label="Website (Coming soon)" url="/projects/opentask" /> */}
+        <Section
+          title="Visual Language"
+          subtitle="the attention to the details of every colors, icons, texts, shapes"
+        />
+        <Imagez image="/image/otlogo1.png" />
+        <Imagez image="/image/otlogo2.png" />
+        <Description text="1 shape, 2 logos" />
+        <Imagez image="/image/ot7.png" />
+        <Description text="Icon library of choice: Ionicons" />
+        <Imagez image="/image/ot0.png" />
+        <Description text="Local Customize Components" />
+        <Section
+          title="Authentication"
+          subtitle="Login/Signup, Email, Phone number, setup account,..."
+        />
+        <Imagez image="/image/ot1.png" />
+        <Description text="Login & Signup with email, phone number & otp" />
+        <Imagez image="/image/ot2.png" />
+        <Description text="Setting up account" />
+        <Section
+          title="Post"
+          subtitle="Basic Information, Location, Description and budget"
+        />
+        <Imagez image="/image/ot5.png" />
+        <Description text="Step by step of posting a task process" />
+        <Section
+          title="Task"
+          subtitle="Task Status, History, Offer, Negotiate, Question, etc"
+        />
+        <Imagez image="/image/ot3.png" />
+        <Imagez image="/image/ot4.png" />
       </>
     </ProjectLayout>
   );

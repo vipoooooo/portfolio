@@ -3,6 +3,7 @@ import {
   ButtonI,
   ButtonII,
   Description,
+  Divider,
   Imagez,
   Section,
   Subtitle,
@@ -41,6 +42,7 @@ const Mef: NextPage = () => {
           label="Facebook"
           url="https://www.facebook.com/ministry.economy.finance"
         />
+        <Divider />
         <Section
           title="Tesdopi"
           subtitle="The collector's profile is platform for token holders to display their
@@ -56,6 +58,7 @@ const Mef: NextPage = () => {
         />
         <Imagez image="/image/tesdopi2.png" />
         <Description text="Redesign Homescreen" />
+        <Divider />
         <Section
           title="Impact hub"
           subtitle="Impact hub is a place where they help connect entrepreneurs and innovators to large organizations, investors and the public sector. they need a design for their e-learning platform's administration website. I take on a responsibility to design their website following their existing design language"
@@ -67,6 +70,7 @@ const Mef: NextPage = () => {
         <Description text="Overview of Content" />
         <Imagez image="/image/ih5.png" />
         <Description text="User Screen" />
+        <Divider />
         <Section
           title="WEG's Learning Managerment System"
           subtitle="Impact hub is a place where they help connect entrepreneurs and innovators to large organizations, investors and the public sector. they need a design for their e-learning platform's administration website. I take on a responsibility to design their website following their existing design language"
@@ -80,6 +84,7 @@ const Mef: NextPage = () => {
         <Imagez image="/image/weg2.png" />
         <Imagez image="/image/weg3.png" />
         <Description text="Mobile version of the system" />
+        <Divider />
         <Section
           title="IBFKH"
           subtitle="I design the whole web application for ibfkh's Admission Test. ibfkh stands for The Institute of Banking & Finance Cambodia (formely know as CIB) has been set up by The Association of Banks in Cambodia (ABC), with the assistance from the Mekong Private Sector Development Facility (MPDF), the Asian Development Bank, and the ASEAN Bankers’ Association"

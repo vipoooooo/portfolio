@@ -44,12 +44,15 @@ const Opentask: NextPage = () => {
           <Subtitle label="Planetscale" />
         </div>
 
-        <ButtonI label="Read Documents" url="https://mef.gov.kh/" />
+        <ButtonI
+          label="Read Documents"
+          url="https://wise-trilby-196.notion.site/Housemade-9168d6ceea6c48a5a5e73ce52f1df36b"
+        />
         <ButtonII
           label="Visit Live Website"
-          url="https://www.facebook.com/ministry.economy.finance"
+          url="https://housemade.vercel.app/"
         />
-        <ButtonI label="Github" url="https://mef.gov.kh/" />
+        <ButtonI label="Github" url="https://github.com/vipoooooo/housemade" />
         <Imagez image="/image/housemade1.png" />
         <Description text="I made customize icons for the application" />
         <Imagez image="/image/housemade2.png" />
