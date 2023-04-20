@@ -8,7 +8,7 @@ const Mef: NextPage = () => {
       image="/image/mef.png"
       title="Ministry of Economy and Finance"
       subtitle="Software Developer"
-      description="During the summers of 2020 and 2021, I interned at Apple as an Interaction Designer working on two core Siri teams — the Understanding team with Garrett Weinberg and the Knowledge team with Maria Cordell. During my time there, I designed platform-level voice UI patterns and disambiguation behaviors for various hardware platforms. My time at Apple involved pitching ideas to high level leadership such as Robby Walker, weekly syncs with Machine Learning engineers, and throwing around ideas with senior designers."
+      description="After graduated, I get to intern at Ministry of economy and finance. I was hired for software engineer role, and my time at MEF involves mostly building projects that help improve the productivity inside and outside the office, designing UI for various projects, pitching ideas to my mentor. I also help building one of the mobile application called FMIS portal."
     >
       <>
         <div className="col-start-1 col-end-7 md:col-start-5 md:col-end-7 md:mb-8">

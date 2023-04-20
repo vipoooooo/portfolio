@@ -1,6 +1,5 @@
 import { type NextPage } from "next";
 import {
-  ButtonI,
   Description,
   Imagez,
   Section,
