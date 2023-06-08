@@ -21,13 +21,16 @@ const Mef: NextPage = () => {
         </div>
         <div className="col-start-1 col-end-7 mb-8 md:col-start-9 md:col-end-11">
           <Title label="Duration" />
-          <Subtitle label="2023 - Present" />
+          <Subtitle label="6 months (2023)" />
         </div>
         <div className="col-start-7 col-end-13 mb-8 md:col-start-11 md:col-end-13 ">
           <Title label="Tools" />
           <Subtitle label="Figma" />
           <Subtitle label="Flutter - Dart" />
           <Subtitle label="Next js" />
+          <Subtitle label="Prisma" />
+          <Subtitle label="tRPC" />
+          <Subtitle label="Planetscale" />
         </div>
 
         <ButtonI label="Visit mef website" url="https://mef.gov.kh/" />
