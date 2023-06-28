@@ -16,28 +16,31 @@ export default function DefaultLayout({
           <div className="col-start-1 col-end-13 flex-col space-y-2 md:col-start-1 md:col-end-6">
             <span className="flex flex-row space-x-2 align-middle">
               <p className="mono w-min self-center rounded-full border border-solid border-yellow-300 px-2 pb-[2px] pt-1 lowercase text-yellow-300">
-                v1.0.3
+                v1.0.4
               </p>
               <p className="mono self-center px-2 pb-[2px] pt-1 uppercase text-zinc-600">
-                Last updated 2023-06-08
+                Last updated 2023-06-28
               </p>
             </span>
           </div>
           <span className="col-start-1 col-end-13 flex flex-col space-y-1 md:col-start-7 md:col-end-9">
             <p>
-              <DynamicLink title="Read.cv" url="https://example.com" />
+              <DynamicLink title="Read.cv" url="https://read.cv/vipoo" />
               <Digit digit="1" />
             </p>
             <p>
-              <DynamicLink title="LinkedIn" url="https://example.com" />
+              <DynamicLink
+                title="LinkedIn"
+                url="https://www.linkedin.com/in/viphou-chhun-aab64b198/"
+              />
               <Digit digit="2" />
             </p>
             <p>
-              <DynamicLink title="Github" url="https://example.com" />
+              <DynamicLink title="Github" url="https://github.com/vipoooooo" />
               <Digit digit="3" />
             </p>
             <p>
-              <DynamicLink title="Twitter" url="https://example.com" />
+              <DynamicLink title="Twitter" url="https://twitter.com/0x6po" />
               <Digit digit="4" />
             </p>
           </span>
