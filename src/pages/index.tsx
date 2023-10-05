@@ -37,29 +37,36 @@ const Home: NextPage = () => {
             <Digit digit="2" /> doing both UXUI and mobile developement
           </p>
           <Project
-            url="/projects/mef"
+            url="/projects/melon"
             col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
+            image="/image/melon.webp"
+            title="Melon Rouge Agency"
+            subtitle="UXUI Designer"
+          />
+          <Project
+            url="/projects/mef"
+            col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
             image="/image/mef.png"
             title="Ministry of Economy and Finance"
             subtitle="Software Developer"
           />
           <Project
             url="/projects/opentask"
-            col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
+            col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
             image="/image/ot.png"
             title="Opentask"
             subtitle="Design & Code"
           />
           <Project
             url="/projects/housemade"
-            col="lg:col-start-1 lg:col-end-7 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
+            col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
             image="/image/housemade.png"
             title="Housemade"
             subtitle="Design & Code"
           />
           <Project
             url="/projects/edemy"
-            col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
+            col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
             image="/image/edemy.png"
             title="Edemy"
             subtitle="UXUI Lead"
