@@ -28,32 +28,32 @@ const Home: NextPage = () => {
             <DynamicLink title="Edemy" url="https://www.edemy.org/" />
             <Digit digit="1" /> as a UXUI designer, he discovered a love for
             having full control over how the interface should and feel. He
-            graduated from Kasem bundit University where she studied computer
-            Science. He iscurrently an intern at{" "}
+            graduated from Kasem bundit University where he studied computer
+            Science. He is currently an UXUI designer at{" "}
             <DynamicLink
-              title="Ministry of Economy and Finance"
-              url="https://mef.gov.kh/"
+              title="Melon Rouge Agency"
+              url="https://melonrouge.asia/"
             />
-            <Digit digit="2" /> doing both UXUI and mobile developement
+            <Digit digit="2" />.
           </p>
           <Project
-            url="/projects/melon"
+            url="/projects/eccc"
             col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
-            image="/image/melon.webp"
-            title="Melon Rouge Agency"
+            image="/image/ecccCover.webp"
+            title="The Ectraodinary Chambers in the Couts of Cambodia"
             subtitle="UXUI Designer"
           />
           <Project
-            url="/projects/mef"
+            url="/projects/filelog"
             col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
-            image="/image/mef.png"
-            title="Ministry of Economy and Finance"
-            subtitle="Software Developer"
+            image="/image/filelogCover.webp"
+            title="Filelog"
+            subtitle="Designer & Developer"
           />
           <Project
             url="/projects/opentask"
             col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
-            image="/image/ot.png"
+            image="/image/op.webp"
             title="Opentask"
             subtitle="Design & Code"
           />
