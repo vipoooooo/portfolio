@@ -50,7 +50,7 @@ const Filelog: NextPage = () => {
         <Description text="Built the design system from the ground up with the goal of unifying visual language." />
         <Imagez image="/image/section.webp" />
         <Description text="More section components" />
-        <Imagez image="/image/filelogShot.webp" />
+        <Imagez image="/image/filelogShot1.webp" />
         <Description text="Final product" />
       </>
     </ProjectLayout>
