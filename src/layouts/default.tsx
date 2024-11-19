@@ -16,10 +16,10 @@ export default function DefaultLayout({
           <div className="col-start-1 col-end-13 flex-col space-y-2 md:col-start-1 md:col-end-6">
             <span className="flex flex-row space-x-2 align-middle">
               <p className="mono w-min self-center rounded-full border border-solid border-yellow-300 px-2 pb-[2px] pt-1 lowercase text-yellow-300">
-                v1.0.6
+                v1.0.7
               </p>
               <p className="mono self-center px-2 pb-[2px] pt-1 uppercase text-zinc-600">
-                Last updated 2023-11-06
+                Last updated 2024-11-19
               </p>
             </span>
           </div>
@@ -57,25 +57,25 @@ export default function DefaultLayout({
         </section>
         <div className="relative col-start-1 col-end-13 overflow-hidden text-clip pb-2">
           <p className="overflow-hidden whitespace-nowrap">
-            _▞▚▞▚▞▚▞_Copyright_2023_▞▚▞▚▞▚▞_Built with
+            _▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in
-            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2023_▞▚▞▚▞▚▞_Built with
+            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in
-            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2023_▞▚▞▚▞▚▞_Built with
+            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in
-            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2023_▞▚▞▚▞▚▞_Built with
+            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in
-            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2023_▞▚▞▚▞▚▞_Built with
+            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in
-            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2023_▞▚▞▚▞▚▞_Built with
+            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in
-            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2023_▞▚▞▚▞▚▞_Built with
+            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in
-            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2023_▞▚▞▚▞▚▞_Built with
+            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in
-            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2023_▞▚▞▚▞▚▞_Built with
+            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in
-            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2023_▞▚▞▚▞▚▞_Built with
+            PhnomPenh_▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in PhnomPenh
           </p>
         </div>

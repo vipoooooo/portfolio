@@ -23,32 +23,44 @@ const Home: NextPage = () => {
               "mb-8 select-none gap-6 pt-2 text-zinc-100 md:mt-0 md:columns-2"
             )}
           >
-            Viphou is a both designer and developer interested in designing and
-            building product that have huge impact in society. After working at{" "}
-            <DynamicLink title="Edemy" url="https://www.edemy.org/" />
-            <Digit digit="1" /> as a UXUI designer, he discovered a love for
-            having full control over how the interface should and feel. He
-            graduated from Kasem bundit University where he studied computer
-            Science. He is currently an UXUI designer at{" "}
+            Po designs interfaces for humans. He thrives in complex, ambiguous
+            problem spaces. He studied Computer Science at{" "}
+            <DynamicLink
+              title="Kasem Bundit University"
+              url="https://kbu.ac.th/"
+            />{" "}
+            <Digit digit="1" /> and has worked at places like{" "}
+            <DynamicLink title="Edemy" url="https://www.edemy.org/" />{" "}
+            <Digit digit="2" />,{" "}
+            <DynamicLink
+              title="Ministry of Economy and Finance"
+              url="https://mef.gov.kh/"
+            />{" "}
+            <Digit digit="3" />, and{" "}
             <DynamicLink
               title="Melon Rouge Agency"
               url="https://melonrouge.asia/"
-            />
-            <Digit digit="2" />.
+            />{" "}
+            <Digit digit="4" />. He is currently a Senior Product Designer at{" "}
+            <DynamicLink
+              title="Smart Axiata"
+              url="https://www.smart.com.kh/km"
+            />{" "}
+            <Digit digit="5" />.
           </p>
           <Project
-            url="/projects/eccc"
-            col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
-            image="/image/ecccCover.webp"
-            title="The Ectraodinary Chambers in the Couts of Cambodia"
-            subtitle="UXUI Designer"
+            url="/"
+            col="group relative col-start-1 col-end-13 grid cursor-not-allowed rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in  lg:col-start-1 lg:col-end-7"
+            image="/image/smart.webp"
+            title="Smart Axiata [LOCKED]"
+            subtitle="Senior Product Design"
           />
           <Project
-            url="/projects/filelog"
+            url="/projects/eccc"
             col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
-            image="/image/filelogCover.webp"
-            title="Filelog"
-            subtitle="Designer & Developer"
+            image="/image/ecccCover.webp"
+            title="The Extraordinary Chambers in the Courts of Cambodia"
+            subtitle="UXUI Designer"
           />
           <Project
             url="/projects/opentask"
@@ -58,15 +70,23 @@ const Home: NextPage = () => {
             subtitle="Design & Code"
           />
           <Project
-            url="/projects/housemade"
+            url="/projects/filelog"
             col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
+            image="/image/filelogCover.webp"
+            title="Filelog"
+            subtitle="Designer & Developer"
+          />
+
+          <Project
+            url="/projects/housemade"
+            col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
             image="/image/housemade.png"
             title="Housemade"
             subtitle="Design & Code"
           />
           <Project
             url="/projects/edemy"
-            col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
+            col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
             image="/image/edemy.png"
             title="Edemy"
             subtitle="UXUI Lead"

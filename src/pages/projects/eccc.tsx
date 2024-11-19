@@ -13,7 +13,7 @@ const Eccc: NextPage = () => {
   return (
     <ProjectLayout
       image="/image/ecccCover.webp"
-      title="The Ectraodinary Chambers in the Couts of Cambodia"
+      title="The Extraordinary Chambers in the Courts of Cambodia"
       subtitle="UXUI Designer"
       description="I was employed to assist in the design of one of the most significant websites to date following my internship at MEF. The most significant period of Cambodian history, the Khmer Rouge, is covered in detail on the ECCC website, which offers information on the past, present, and future. When I joined the project in the middle, the people who were already involved only cared about the artistic side of things, so my main responsibility was to help create interactive design in Figma and design a layout where it made sense. I concentrated on the more technical side of design."
     >
@@ -39,13 +39,10 @@ const Eccc: NextPage = () => {
           <Subtitle label="Photoshop" />
         </div>
 
-        <ButtonI
-          label="Visit Melon rouge website"
-          url="https://melonrouge.asia/"
-        />
+        <ButtonI label="ECCC's Website" url="https://eccc.gov.kh/en" />
         <ButtonII
-          label="Facebook"
-          url="https://www.facebook.com/melonrougeagency"
+          label="ECCC's Facebook"
+          url="https://web.facebook.com/eccckh"
         />
         <Description text="One of my main responsibility of this project is to fix, design and organize all of the components in the project." />
         <Imagez image="/image/ecccsb.webp" />

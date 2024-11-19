@@ -18,7 +18,7 @@ const Project = ({
     <Link href={url}>
       <div className="relative h-[60vw] overflow-hidden rounded-md object-cover lg:h-[29vw]">
         <div className="relative h-full">
-          <article className="opacity-1 h-full w-full overflow-hidden rounded-md object-cover transition duration-500 ease-out">
+          <article className="opacity-1 h-full w-full overflow-hidden rounded-lg object-cover transition duration-500 ease-out">
             <span
               style={{
                 boxSizing: "border-box",
