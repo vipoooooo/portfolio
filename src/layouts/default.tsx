@@ -19,7 +19,7 @@ export default function DefaultLayout({
                 v1.0.7
               </p>
               <p className="mono self-center px-2 pb-[2px] pt-1 uppercase text-zinc-600">
-                Last updated 2024-11-19
+                Last updated DEC 08, 2024
               </p>
             </span>
           </div>

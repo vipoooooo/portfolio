@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { IoLockClosed } from "react-icons/io5";
 
 const Project = ({
   url,
@@ -7,12 +8,14 @@ const Project = ({
   image,
   title,
   subtitle,
+  locked,
 }: {
   url: string;
   col: string;
   image: string;
   title: string;
   subtitle: string;
+  locked: boolean;
 }) => (
   <div className={col}>
     <Link href={url}>
@@ -47,6 +50,12 @@ const Project = ({
           </article>
         </div>
       </div>
+      {locked && (
+        <div className="absolute left-4 top-4 flex items-center gap-1 rounded-sm bg-neutral-900 px-2 py-1 text-zinc-50">
+          <IoLockClosed className="w-3" />
+          <p className="uppercase">Locked</p>
+        </div>
+      )}
       <div className="mt-2">
         <p className="text-zinc-50">{title}</p>
         <p className="text-zinc-500">{subtitle}</p>

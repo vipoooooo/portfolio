@@ -52,8 +52,9 @@ const Home: NextPage = () => {
             url="/"
             col="group relative col-start-1 col-end-13 grid cursor-not-allowed rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in  lg:col-start-1 lg:col-end-7"
             image="/image/smart.webp"
-            title="Smart Axiata [LOCKED]"
-            subtitle="Senior Product Design"
+            title="Smart Axiata [Currently]"
+            subtitle="Senior Product Designer"
+            locked={true}
           />
           <Project
             url="/projects/eccc"
@@ -61,6 +62,7 @@ const Home: NextPage = () => {
             image="/image/ecccCover.webp"
             title="The Extraordinary Chambers in the Courts of Cambodia"
             subtitle="UXUI Designer"
+            locked={false}
           />
           <Project
             url="/projects/opentask"
@@ -68,6 +70,7 @@ const Home: NextPage = () => {
             image="/image/op.webp"
             title="Opentask"
             subtitle="Design & Code"
+            locked={false}
           />
           <Project
             url="/projects/filelog"
@@ -75,6 +78,7 @@ const Home: NextPage = () => {
             image="/image/filelogCover.webp"
             title="Filelog"
             subtitle="Designer & Developer"
+            locked={false}
           />
 
           <Project
@@ -83,6 +87,7 @@ const Home: NextPage = () => {
             image="/image/housemade.png"
             title="Housemade"
             subtitle="Design & Code"
+            locked={false}
           />
           <Project
             url="/projects/edemy"
@@ -90,6 +95,7 @@ const Home: NextPage = () => {
             image="/image/edemy.png"
             title="Edemy"
             subtitle="UXUI Lead"
+            locked={false}
           />
         </main>
       </>
