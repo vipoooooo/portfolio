@@ -49,19 +49,19 @@ const Home: NextPage = () => {
             <Digit digit="5" />.
           </p>
           <Project
-            url="/"
+            url="/projects/smart"
             col="group relative col-start-1 col-end-13 grid cursor-not-allowed rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in  lg:col-start-1 lg:col-end-7"
             image="/image/smart.webp"
             title="Smart Axiata [Currently]"
-            subtitle="Senior Product Designer"
-            locked={true}
+            subtitle="Self care app"
+            locked={false}
           />
           <Project
             url="/projects/eccc"
             col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
             image="/image/ecccCover.webp"
             title="The Extraordinary Chambers in the Courts of Cambodia"
-            subtitle="UXUI Designer"
+            subtitle="Website"
             locked={false}
           />
           <Project
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
             col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
             image="/image/op.webp"
             title="Opentask"
-            subtitle="Design & Code"
+            subtitle="Mobile application"
             locked={false}
           />
           <Project
@@ -77,7 +77,7 @@ const Home: NextPage = () => {
             col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
             image="/image/filelogCover.webp"
             title="Filelog"
-            subtitle="Designer & Developer"
+            subtitle="Web application"
             locked={false}
           />
 
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
             col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
             image="/image/housemade.png"
             title="Housemade"
-            subtitle="Design & Code"
+            subtitle="Web application"
             locked={false}
           />
           <Project
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
             col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
             image="/image/edemy.png"
             title="Edemy"
-            subtitle="UXUI Lead"
+            subtitle="Mobile/Web Applications"
             locked={false}
           />
         </main>
