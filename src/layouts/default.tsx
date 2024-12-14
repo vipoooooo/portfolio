@@ -16,10 +16,10 @@ export default function DefaultLayout({
           <div className="col-start-1 col-end-13 flex-col space-y-2 md:col-start-1 md:col-end-6">
             <span className="flex flex-row space-x-2 align-middle">
               <p className="mono w-min self-center rounded-full border border-solid border-yellow-300 px-2 pb-[2px] pt-1 lowercase text-yellow-300">
-                v1.0.7
+                v1.0.8
               </p>
               <p className="mono self-center px-2 pb-[2px] pt-1 uppercase text-zinc-600">
-                Last updated DEC 08, 2024
+                Last updated DEC 14, 2024
               </p>
             </span>
           </div>
@@ -36,11 +36,21 @@ export default function DefaultLayout({
               <Digit digit="2" />
             </p>
             <p>
-              <DynamicLink title="Github" url="https://github.com/vipoooooo" />
+              <DynamicLink
+                title="CV"
+                url="https://docs.google.com/document/d/1Sn0b2sMNY8V5zKc07Qv4zD79jiRyK8a5xMQZPVZo2UM/edit?tab=t.0"
+              />
               <Digit digit="3" />
             </p>
+            {/* <p>
+              <DynamicLink title="Github" url="https://github.com/vipoooooo" />
+              <Digit digit="3" />
+            </p> */}
             <p>
-              <DynamicLink title="Twitter" url="https://twitter.com/0x6po" />
+              <DynamicLink
+                title="Behance"
+                url="https://www.behance.net/vipoodecrut"
+              />
               <Digit digit="4" />
             </p>
           </span>
@@ -55,7 +65,7 @@ export default function DefaultLayout({
             </p>
           </div>
         </section>
-        <div className="relative col-start-1 col-end-13 overflow-hidden text-clip pb-2">
+        {/* <div className="relative col-start-1 col-end-13 overflow-hidden text-clip pb-2">
           <p className="overflow-hidden whitespace-nowrap">
             _▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in
@@ -78,7 +88,7 @@ export default function DefaultLayout({
             PhnomPenh_▞▚▞▚▞▚▞_Copyright_2024_▞▚▞▚▞▚▞_Built with
             Next.JS_Vercel_▞▚▞▚▞▚▞_Based in PhnomPenh
           </p>
-        </div>
+        </div> */}
       </footer>
     </div>
   );

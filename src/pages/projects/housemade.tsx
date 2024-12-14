@@ -14,7 +14,7 @@ const Opentask: NextPage = () => {
     <ProjectLayout
       image="/image/housemade.png"
       title="Housemade"
-      subtitle="Design & Code"
+      subtitle="Web application (Personal)"
       description="this project is my final univ project that i did with my friends. A few years ago, I noticed the difficulties of finding specialist to fix your house in my country. Whenever there’s a problem occur in someone’s house, the first solution is to ask people around them if they know or have contact of someone that can fix their house problem. and that make me wonder why aren’t there anyone who create some kind of website or application that can provide these kinds of services.
       That’s is why me and my friend decide to create a service provider website that provide all kind of in-house repair."
     >

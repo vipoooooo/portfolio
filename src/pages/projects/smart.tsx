@@ -7,21 +7,22 @@ import {
   Imagez,
   Subtitle,
   Title,
+  Videoz,
 } from "y/components/Micro";
 import ProjectLayout from "y/layouts/projectLayout";
 
 const Smart: NextPage = () => {
   return (
     <ProjectLayout
-      image="/image/smart.webp"
+      image="/image/smartBanner2.png"
       title="Smartnas 4.0 [REVAMP]"
-      subtitle="Self care app"
+      subtitle="Self care application"
       description="I led the design for the SmartNas 4.0 revamp at Smart Axiata, one of Cambodia's top three telecommunications companies. As the sole designer on the team, I played a key role in scaling the platform from under 1 million to over 1.5 million users. My contributions included creating a design system from scratch, which tripled team productivity, managing the current version (3.0) across multiple departments, and simultaneously driving the redesign for the 4.0 version."
     >
       <>
         <div className="col-start-1 col-end-7 md:col-start-5 md:col-end-7 md:mb-8">
           <Title label="Role" />
-          <Subtitle label="Senior UXUI Designer" />
+          <Subtitle label="Senior Product Designer" />
         </div>
         <div className="col-start-7 col-end-13 md:col-start-7 md:col-end-9 md:mb-8">
           <Title label="Team" />
@@ -52,6 +53,7 @@ const Smart: NextPage = () => {
         <Imagez image="/image/snIcon1.webp" />
         <Imagez image="/image/snIcon2.webp" />
         <Description text="+400 Hand drawn icons including both outline and filled" />
+        <Videoz video="/image/snHome.mp4" />
         <Imagez image="/image/sn1.webp" />
         <Description text="Homepage is where user can find the most important things related to their number like top up, history, plan, service, event...." />
         <Imagez image="/image/sn2.webp" />

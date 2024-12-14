@@ -16,13 +16,13 @@ const Mef: NextPage = () => {
     <ProjectLayout
       image="/image/edemy.png"
       title="Edemy"
-      subtitle="UXUI Lead"
+      subtitle="Mobile/Web Applications"
       description="I lead design at Edemy, a small startup building a education platform application. During my time there, I introduced new features that help improve the experience, improving current UX, create onboarding and fully revamped the payment interface. The company also accept a lots of projects that related to education from clients. I responsible for both revamped old project and new projects. Since this is just a startup, I also did things other than design interface, like video editing, design poster, build landing page for Tesdopi app."
     >
       <>
         <div className="col-start-1 col-end-7 md:col-start-5 md:col-end-7 md:mb-8">
           <Title label="Role" />
-          <Subtitle label="UXUI Designer" />
+          <Subtitle label="Lead UXUI Designer" />
         </div>
         <div className="col-start-7 col-end-13 md:col-start-7 md:col-end-9 md:mb-8">
           <Title label="Manager" />

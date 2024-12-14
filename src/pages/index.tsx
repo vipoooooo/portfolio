@@ -51,9 +51,9 @@ const Home: NextPage = () => {
           <Project
             url="/projects/smart"
             col="group relative col-start-1 col-end-13 grid cursor-not-allowed rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in  lg:col-start-1 lg:col-end-7"
-            image="/image/smart.webp"
+            image="/image/smartBanner2.png"
             title="Smart Axiata [Currently]"
-            subtitle="Self care app"
+            subtitle="Self care application"
             locked={false}
           />
           <Project
@@ -64,12 +64,13 @@ const Home: NextPage = () => {
             subtitle="Website"
             locked={false}
           />
+
           <Project
-            url="/projects/opentask"
+            url="/projects/edemy"
             col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
-            image="/image/op.webp"
-            title="Opentask"
-            subtitle="Mobile application"
+            image="/image/edemy.png"
+            title="Edemy"
+            subtitle="Mobile/Web Applications"
             locked={false}
           />
           <Project
@@ -77,24 +78,24 @@ const Home: NextPage = () => {
             col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
             image="/image/filelogCover.webp"
             title="Filelog"
-            subtitle="Web application"
+            subtitle="Internal Tool"
             locked={false}
           />
 
           <Project
-            url="/projects/housemade"
+            url="/projects/opentask"
             col="group relative col-start-1 col-end-13 grid cursor-pointer rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in hover:bg-neutral-800 lg:col-start-1 lg:col-end-7"
-            image="/image/housemade.png"
-            title="Housemade"
-            subtitle="Web application"
+            image="/image/op.webp"
+            title="Opentask"
+            subtitle="Web application (Personal)"
             locked={false}
           />
           <Project
-            url="/projects/edemy"
+            url="/projects/housemade"
             col="lg:col-start-7 lg:col-end-13 col-start-1 col-end-13 cursor-pointer hover:bg-neutral-800 group relative grid p-2 bg-[rgba(255,255,255,.03)] rounded-md ease-in"
-            image="/image/edemy.png"
-            title="Edemy"
-            subtitle="Mobile/Web Applications"
+            image="/image/housemade.png"
+            title="Housemade"
+            subtitle="Web application (Personal)"
             locked={false}
           />
         </main>

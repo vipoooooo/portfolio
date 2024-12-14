@@ -14,13 +14,13 @@ const Eccc: NextPage = () => {
     <ProjectLayout
       image="/image/ecccCover.webp"
       title="The Extraordinary Chambers in the Courts of Cambodia"
-      subtitle="UXUI Designer"
+      subtitle="Website"
       description="I was employed to assist in the design of one of the most significant websites to date following my internship at MEF. The most significant period of Cambodian history, the Khmer Rouge, is covered in detail on the ECCC website, which offers information on the past, present, and future. When I joined the project in the middle, the people who were already involved only cared about the artistic side of things, so my main responsibility was to help create interactive design in Figma and design a layout where it made sense. I concentrated on the more technical side of design."
     >
       <>
         <div className="col-start-1 col-end-7 md:col-start-5 md:col-end-7 md:mb-8">
           <Title label="Role" />
-          <Subtitle label="UXUI designer" />
+          <Subtitle label="Web designer" />
         </div>
         <div className="col-start-7 col-end-13 md:col-start-7 md:col-end-9 md:mb-8">
           <Title label="Collaborator" />

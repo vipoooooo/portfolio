@@ -74,6 +74,23 @@ const Imagez = ({ image }: { image: string }) => (
   </div>
 );
 
+const Videoz = ({ video }: { video: string }) => (
+  <div className="col-start-1 col-end-13 overflow-hidden rounded-md bg-gray-800 md:col-start-5">
+    <video
+      src={video}
+      controls
+      autoPlay
+      loop
+      muted
+      className="related inset-0 box-border block h-auto 
+              max-h-full min-h-full 
+              w-0 min-w-full max-w-full overflow-hidden border-0 bg-none object-cover md:h-full md:w-full"
+    >
+      Your browser does not support the video tag.
+    </video>
+  </div>
+);
+
 const Description = ({ text }: { text: string }) => (
   <p className="col-start-1 col-end-13 mb-2 gap-6  text-zinc-500 md:col-start-5 md:col-end-13">
     {text}
@@ -98,6 +115,7 @@ export {
   Title,
   Subtitle,
   Imagez,
+  Videoz,
   Description,
   Section,
   Divider,

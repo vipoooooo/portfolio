@@ -13,7 +13,7 @@ const Opentask: NextPage = () => {
     <ProjectLayout
       image="/image/op.webp"
       title="Opentask"
-      subtitle="Design & Code"
+      subtitle="Web application (Personal)"
       description="Opentask is a online community marketplace where user can connect with tasker and ask them for help completing task. After Finish my last project together with my 2 teammates, i figure that i want to maybe do something together again. that's how we decided to build opentask as our side project during our free time. the idea is pretty similar to my last project, while taking insperation from other existing product."
     >
       <>
