@@ -53,8 +53,8 @@ const Smart: NextPage = () => {
         <Imagez image="/image/snIcon1.webp" />
         <Imagez image="/image/snIcon2.webp" />
         <Description text="+400 Hand drawn icons including both outline and filled" />
-        <Videoz video="/image/snHome.mp4" />
-        <Imagez image="/image/sn1.webp" />
+        <Videoz video="/image/snHome 2.mp4" />
+        {/* <Imagez image="/image/sn1.webp" />
         <Description text="Homepage is where user can find the most important things related to their number like top up, history, plan, service, event...." />
         <Imagez image="/image/sn2.webp" />
         <Description text="History is the all-in-one place where you can fild all the transactions, data usages, every actions that you did with Smart" />
@@ -63,7 +63,7 @@ const Smart: NextPage = () => {
         <Imagez image="/image/sn4.webp" />
         <Description text="Settings is where you can make changes to your profile such as change theme, language, update profile, manage devices, ....." />
         <Imagez image="/image/sn5.webp" />
-        <Description text="and more." />
+        <Description text="and more." /> */}
       </>
     </ProjectLayout>
   );

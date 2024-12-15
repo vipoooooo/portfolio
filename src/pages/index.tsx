@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { type NextPage } from "next";
 import Image from "next/image";
 import { DynamicLink, Digit } from "y/components/dynamic_link";
-import Project from "y/components/project";
+import { Project, ProjectNoLink } from "y/components/project";
 import DefaultLayout from "y/layouts/default";
 
 const Home: NextPage = () => {
@@ -54,7 +54,6 @@ const Home: NextPage = () => {
             image="/image/smartBanner2.png"
             title="Smart Axiata [Currently]"
             subtitle="Self care application"
-            locked={false}
           />
           <Project
             url="/projects/eccc"
@@ -62,7 +61,7 @@ const Home: NextPage = () => {
             image="/image/ecccCover.webp"
             title="The Extraordinary Chambers in the Courts of Cambodia"
             subtitle="Website"
-            locked={false}
+            // locked={false}
           />
 
           <Project
@@ -71,7 +70,7 @@ const Home: NextPage = () => {
             image="/image/edemy.png"
             title="Edemy"
             subtitle="Mobile/Web Applications"
-            locked={false}
+            // locked={false}
           />
           <Project
             url="/projects/filelog"
@@ -79,7 +78,7 @@ const Home: NextPage = () => {
             image="/image/filelogCover.webp"
             title="Filelog"
             subtitle="Internal Tool"
-            locked={false}
+            // locked={false}
           />
 
           <Project
@@ -88,7 +87,7 @@ const Home: NextPage = () => {
             image="/image/op.webp"
             title="Opentask"
             subtitle="Web application (Personal)"
-            locked={false}
+            // locked={false}
           />
           <Project
             url="/projects/housemade"
@@ -96,7 +95,7 @@ const Home: NextPage = () => {
             image="/image/housemade.png"
             title="Housemade"
             subtitle="Web application (Personal)"
-            locked={false}
+            // locked={false}
           />
         </main>
       </>
