@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { type NextPage } from "next";
 import Image from "next/image";
 import { DynamicLink, Digit } from "y/components/dynamic_link";
-import { Project, ProjectNoLink } from "y/components/project";
+import { Project } from "y/components/project";
 import DefaultLayout from "y/layouts/default";
 
 const Home: NextPage = () => {
