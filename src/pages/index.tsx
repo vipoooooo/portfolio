@@ -36,23 +36,25 @@ const Home: NextPage = () => {
               title="Ministry of Economy and Finance"
               url="https://mef.gov.kh/"
             />{" "}
-            <Digit digit="3" />, and{" "}
+            <Digit digit="3" />,{" "}
             <DynamicLink
               title="Melon Rouge Agency"
               url="https://melonrouge.asia/"
             />{" "}
-            <Digit digit="4" />. He is currently a Senior Product Designer at{" "}
+            <Digit digit="4" />, and{" "}
             <DynamicLink
               title="Smart Axiata"
               url="https://www.smart.com.kh/km"
             />{" "}
-            <Digit digit="5" />.
+            <Digit digit="5" />. He is currently a UXUI Designer at{" "}
+            <DynamicLink title="ABA Bank" url="https://www.ababank.com/" />{" "}
+            <Digit digit="6" />.
           </p>
           <Project
             url="/projects/smart"
             col="group relative col-start-1 col-end-13 grid cursor-not-allowed rounded-md bg-[rgba(255,255,255,.03)] p-2 ease-in  lg:col-start-1 lg:col-end-7"
             image="/image/smartBanner2.png"
-            title="Smart Axiata [Currently]"
+            title="Smart Axiata"
             subtitle="Self care application"
           />
           <Project
