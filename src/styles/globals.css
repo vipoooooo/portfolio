@@ -5,6 +5,50 @@
 html,
 body {
   background-color: #111111;
+  overscroll-behavior: none;
+}
+
+.ticker {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker-track {
+  display: inline-flex;
+  min-width: max-content;
+  white-space: nowrap;
+  animation: ticker-step 36s steps(160, end) infinite;
+}
+
+.ticker-track span {
+  padding-right: 3rem;
+}
+
+@keyframes ticker-step {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes card-fade-in {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 12px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@layer utilities {
+  .animate-card-fade {
+    animation: card-fade-in 420ms ease-out forwards;
+  }
 }
 
 @layer base {
