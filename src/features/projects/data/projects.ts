@@ -7,11 +7,11 @@ export const projectDetails: ProjectDetail[] = [
       slug: "smart",
       title: "Smart Axiata",
       subtitle: "Self care application",
-      image: "/image/smartBanner2.png",
+      image: "/image/smart-banner.webp",
       locked: false,
     },
     hero: {
-      image: "/image/smartBanner2.png",
+      image: "/image/smart-banner.webp",
       title: "Smartnas 4.0 [REVAMP]",
       subtitle: "Self care application",
       description:
@@ -129,11 +129,11 @@ export const projectDetails: ProjectDetail[] = [
       slug: "eccc",
       title: "The Extraordinary Chambers in the Courts of Cambodia",
       subtitle: "Website",
-      image: "/image/ecccCover.webp",
+      image: "/image/eccc-banner.webp",
       locked: false,
     },
     hero: {
-      image: "/image/ecccCover.webp",
+      image: "/image/eccc-banner.webp",
       title: "The Extraordinary Chambers in the Courts of Cambodia",
       subtitle: "Website",
       description:
@@ -236,11 +236,11 @@ export const projectDetails: ProjectDetail[] = [
       slug: "edemy",
       title: "Edemy",
       subtitle: "Mobile/Web Applications",
-      image: "/image/edemy.png",
+      image: "/image/edemy-banner.webp",
       locked: false,
     },
     hero: {
-      image: "/image/edemy.png",
+      image: "/image/edemy-banner.webp",
       title: "Edemy",
       subtitle: "Mobile/Web Applications",
       description:

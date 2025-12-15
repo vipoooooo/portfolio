@@ -29,22 +29,18 @@ export default function DefaultLayout({
           </div>
           <span className="col-start-1 col-end-13 flex flex-col space-y-1 md:col-start-7 md:col-end-9">
             <p>
-              <DynamicLink title="Read.cv" url="https://read.cv/vipoo" />
-              <Digit digit="1" />
-            </p>
-            <p>
               <DynamicLink
                 title="LinkedIn"
                 url="https://www.linkedin.com/in/viphou-chhun-aab64b198/"
               />
-              <Digit digit="2" />
+              <Digit digit="1" />
             </p>
             <p>
               <DynamicLink
                 title="CV"
                 url="https://docs.google.com/document/d/1Sn0b2sMNY8V5zKc07Qv4zD79jiRyK8a5xMQZPVZo2UM/edit?tab=t.0"
               />
-              <Digit digit="3" />
+              <Digit digit="2" />
             </p>
             {/* <p>
               <DynamicLink title="Github" url="https://github.com/vipoooooo" />
@@ -55,7 +51,7 @@ export default function DefaultLayout({
                 title="Behance"
                 url="https://www.behance.net/vipoodecrut"
               />
-              <Digit digit="4" />
+              <Digit digit="3" />
             </p>
           </span>
           <div className="col-start-1 col-end-13 flex flex-col space-y-1 md:col-start-9">
@@ -65,7 +61,7 @@ export default function DefaultLayout({
                 title="vipoopoopoo@gmail.com"
                 url="mailto:vipoopoopoo#gmail.com"
               />
-              <Digit digit="5" />
+              <Digit digit="4" />
             </p>
           </div>
         </section>
